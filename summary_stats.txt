@@ -1,0 +1,82 @@
+=== SUMMARY STATS ===
+Total SBOM files scanned: 6389
+Successfully parsed SBOMs: 2577
+Failed SBOMs: 3812
+Total identifiers parsed: 299352
+Total valid coordinates: 298720
+
+Counts by package type (sorted):
+composer             : 1479
+crate                : 5258
+gem                  : 10574
+git                  : 16550
+go                   : 1368
+maven                : 12938
+npm                  : 228216
+nuget                : 4573
+pod                  : 93
+pypi                 : 17671
+
+Top 10 most common base purls (no qualifiers):
+2075 pkg:github/actions/checkout@v4
+ 930 pkg:github/actions/checkout@v2
+ 711 pkg:github/actions/checkout@v3
+ 623 pkg:github/crazy-max/ghaction-dump-context@v2
+ 623 pkg:github/step-security/harden-runner@v2
+ 611 pkg:github/actions/setup-python@v5
+ 557 pkg:github/crazy-max/ghaction-github-status@v4
+ 536 pkg:github/GitHubSecurityLab/actions-permissions@v1
+ 488 pkg:github/github/codeql-action@v3
+ 417 pkg:github/actions/cache@v4
+
+Top 20 most common unique full purls (from validated_coordinates.csv):
+2075 pkg:github/actions/checkout@v4
+ 930 pkg:github/actions/checkout@v2
+ 711 pkg:github/actions/checkout@v3
+ 623 pkg:github/step-security/harden-runner@v2
+ 623 pkg:github/crazy-max/ghaction-dump-context@v2
+ 611 pkg:github/actions/setup-python@v5
+ 557 pkg:github/crazy-max/ghaction-github-status@v4
+ 536 pkg:github/GitHubSecurityLab/actions-permissions@v1#monitor
+ 405 pkg:github/actions/cache@v4
+ 353 pkg:github/actions/upload-artifact@v4
+ 345 pkg:github/mxschmitt/action-tmate@v3
+ 329 pkg:github/cisagov/setup-env-github-action@develop
+ 305 pkg:github/actions/setup-python@v2
+ 292 pkg:npm/object-assign@4.1.1
+ 278 pkg:npm/concat-map@0.0.1
+ 268 pkg:github/hashicorp/setup-terraform@v3
+ 252 pkg:github/actions/setup-python@v4
+ 250 pkg:npm/brace-expansion@1.1.11
+ 250 pkg:npm/wrappy@1.0.2
+ 247 pkg:npm/once@1.4.0
+
+Top 10 most common coordinate revisions:
+9092 1.0.0
+6900 1.0.1
+6687 2.0.0
+5350 3.0.0
+5107 1.0.2
+4677 1.1.0
+4199 v4
+3747 2.1.0
+3590 v2
+3583 2.0.1
+
+Top 10 most common sources:
+5249 /Users/ravle/guac_analytics/sboms-cyclonedx/idaholab@Deep-Lynx_sbom.json
+4544 /Users/ravle/guac_analytics/sboms-cyclonedx/esnet@react-dynamic-forms_sbom.json
+3586 /Users/ravle/guac_analytics/sboms-cyclonedx/HHS@Head-Start-TTADP_sbom.json
+3484 /Users/ravle/guac_analytics/sboms-cyclonedx/esnet@pond_sbom.json
+3424 /Users/ravle/guac_analytics/sboms-cyclonedx/US-CBP@GTAS-UI_sbom.json
+3423 /Users/ravle/guac_analytics/sboms-cyclonedx/JBEI@foldy_sbom.json
+3416 /Users/ravle/guac_analytics/sboms-cyclonedx/CDCgov@prime-simplerepor_sbom.json
+3387 /Users/ravle/guac_analytics/sboms-cyclonedx/GSA@ChallengeGov_FrontEnd_sbom.json
+3117 /Users/ravle/guac_analytics/sboms-cyclonedx/GSA@ai-experience-sharing-platform_sbom.json
+3060 /Users/ravle/guac_analytics/sboms-cyclonedx/kbasecollaborations@Kbasecollaborations.github.io_sbom.j...
+
+SBOM size distribution (by valid identifiers):
+1–10    : 1196 files
+11–50   : 875 files
+51–100  : 154 files
+100+    : 352 files

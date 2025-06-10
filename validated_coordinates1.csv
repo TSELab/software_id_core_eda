@@ -1,6 +1,0 @@
-name,version,purl,type,bomRef,source,valid_coordinate,coordinate_type,coordinate_revision
-actions/checkout,v1,pkg:github/actions/checkout@v1,library,pkg:github/actions/checkout@v1?package-id=fc32a3eb77b07278,/Users/ravle/guac_analytics/sboms-cyclonedx/9505-PNNL@wmpy_power_sbom.json,true,git,v1
-actions/checkout,v4,pkg:github/actions/checkout@v4,library,pkg:github/actions/checkout@v4?package-id=471b5c915ff18ac2,/Users/ravle/guac_analytics/sboms-cyclonedx/9505-PNNL@wmpy_power_sbom.json,true,git,v4
-actions/setup-python,master,pkg:github/actions/setup-python@master,library,pkg:github/actions/setup-python@master?package-id=d8dd45bb399cbb7c,/Users/ravle/guac_analytics/sboms-cyclonedx/9505-PNNL@wmpy_power_sbom.json,true,git,master
-actions/upload-artifact,v4,pkg:github/actions/upload-artifact@v4,library,pkg:github/actions/upload-artifact@v4?package-id=989b15a1afcd260e,/Users/ravle/guac_analytics/sboms-cyclonedx/9505-PNNL@wmpy_power_sbom.json,true,git,v4
-openjournals/openjournals-draft-action,master,pkg:github/openjournals/openjournals-draft-action@master,library,pkg:github/openjournals/openjournals-draft-action@master?package-id=ee9dd0665bda3839,/Users/ravle/guac_analytics/sboms-cyclonedx/9505-PNNL@wmpy_power_sbom.json,true,git,master
